@@ -41,10 +41,10 @@
             </div>
             <div class="top-link">
                 <ul>
-                    <li><i class="bi bi-facebook"></i></li>
-                    <li><i class="bi bi-linkedin"></i></li>
-                    <li><i class="bi bi-whatsapp"></i></li>
-                    <li><i class="bi bi-instagram"></i></li>
+                    <li><a href="https://web.facebook.com/profile.php?id=100087340652990"><i class="bi bi-facebook"> </a></i></li>
+                    <li><a href="https://www.linkedin.com/in/oqashakhan/"><i class="bi bi-linkedin"> </a></i></li>
+                    <li><a href="https://wa.link/t79mme"><i class="bi bi-whatsapp"> </a></i></li>
+                    <li><a href=""><i class="bi bi-instagram"></a></i></li>
                 </ul>
             </div>
         </div>
@@ -66,13 +66,11 @@
                 <a href="notes.html">
                     <li>Notes</li>
                 </a>
-                <a href="#">
-                    <li>Books</li>
-                </a>
+            
                 <a href="contact.html">
                     <li>Contact</li>
                 </a>
-               
+
             </ul>
             <i class="bi bi-list list"></i>
         </nav>
@@ -193,23 +191,27 @@
     </section>
 
 
+    <!-- ----------------- contact start ------------ -->
 
-    <section class="title">
+
+    <section class="title">    
         <h1>Contact Us</h1>
         <p>Get in touch with us for any queries or assistance.</p>
 
     </section>
 
-    
-    <div class="container-1">
 
+    <div class="container-1">
+  
         <div class="contact-form">
-            <form>
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <input type="text" placeholder="Subject" required>
-                <textarea placeholder="Message" rows="5" required></textarea>
-                <button type="submit">Send Message</button>
+            <form  action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="d654ea51-bb92-4ade-a4ac-54cc0c16c9fd">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="text" name="Subject" placeholder="Subject" required>
+                <textarea placeholder="Message" name="massage" rows="5" required></textarea>
+                <button type="submit" name="submit">Send Message</button>
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
             </form>
         </div>
     </div>
@@ -224,50 +226,30 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
     <footer class="footer">
         <div class="column">
             <h3>NoteZone</h3>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies
-                darta donna mare fermentum iaculis eu non diam phasellus.</p>
+            <p>At NoteZone, we are committed to empowering students with quality educational resources. Stay connected with us for updates, and feel free to reach out for any assistance. Together, let's make learning simple and effective!</p>
             <div class="social-icons">
-                <a href="#"><i class="fas fa-times"></i></a>
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://wa.link/t79mme"> <i class="bi bi-whatsapp"></i></a>
+                <a href="https://web.facebook.com/profile.php?id=100087340652990"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/oqashakhan/"><i class="bi bi-linkedin"></i></a>
+                <a href="mailto:khanoqasha002@gmail.com"><i class="fa-solid fa-envelope"></i></a>
             </div>
         </div>
         <div class="column">
             <h3>Useful Links</h3>
-            <a href="index.html">Home</a>
+            <a href="#">Home</a>
             <a href="about.html">About Us</a>
-            <a href="notes.html">NOtes</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="notes.html">Notes</a>
             <a href="classes.html">Classes</a>
-            <a href="#">Privacy Policy</a>
         </div>
 
         <div class="column">
             <h3>Contact Us</h3>
-            <p>A108 Adam Street<br>New York, NY 535022<br>United States</p>
-            <p>Phone: +1 5589 55488 55</p>
-            <p>Email: info@example.com</p>
+            <p>Phone: +92 3155807044</p>
+            <p>Email: mroqasha@gmail.com</p>
         </div>
 
     </footer>
@@ -275,7 +257,7 @@
 
 
     <div class="end">
-        <span> © Copyright Fsociety All Rights Reserved</span>
+        <span> © Copyright NoteZone All Rights Reserved</span>
         <p>Designed by Fsociety </p>
     </div>
 
