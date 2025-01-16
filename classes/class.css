@@ -1,0 +1,22 @@
+.n-btn{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.down-btn{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  .down-btn:hover{
+    background-color: white;
+    color: #0b9d8a;
+  }     
