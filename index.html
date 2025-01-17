@@ -19,8 +19,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+     
+    <!-- -------------- Aos animation-------------------------- -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    <!-- ---------------------------------------- -->
     <!-- --------------- swife js------------------------- -->
     <link rel="stylesheet" href="./css/swifer.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -33,7 +35,7 @@
 
 <body>
 
-    <section class="top">
+    <section class="top" data-aos="fade-down"  data-aos-duration="1000">
         <div class="top-menu contaner">
             <div class="top-info">
                 <p><i class="bi bi-envelope"></i> oqasha@gmail.com</p>
@@ -80,12 +82,12 @@
     <section class="contaner hero ">
 
         <div class="hero-text">
-            <h1>Welcome to NoteZone</h1>
-            <p>Discover comprehensive and organized notes for classes 9 to 12, designed to simplify learning and boost
+            <h1  data-aos="fade-right"  data-aos-duration="1000">Welcome to NoteZone</h1>
+            <p  data-aos="fade-right"  data-aos-duration="1400">Discover comprehensive and organized notes for classes 9 to 12, designed to simplify learning and boost
                 academic success.</p>
-            <a href="#classes"><button class="btn">Read Now</button></a>
+            <a href="#classes"  data-aos="fade-right"  data-aos-duration="1800"><button class="btn">Read Now</button></a>
         </div>
-        <div class="hero-img">
+        <div class="hero-img"  data-aos="fade-left"  data-aos-duration="1000">
             <div class="hero-card">
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
@@ -95,20 +97,16 @@
                         </div>
 
                         <div class="swiper-slide">
-                            <img src="./assets/slide 2.jpg"
-                                alt="">
+                            <img src="./assets/slide 2.jpg" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img src="./assets/slider 3.webp"
-                                alt="">
+                            <img src="./assets/slider 3.webp" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img src="./assets/slider 4.jfif"
-                                alt="">
+                            <img src="./assets/slider 4.jfif" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img src="./assets/slider 5.jpg"
-                                alt="">
+                            <img src="./assets/slider 5.jpg" alt="">
                         </div>
 
 
@@ -120,7 +118,7 @@
 
 
     <!-- ----------------- title ------------ -->
-    <section class="title " id="classes">
+    <section class="title " id="classes"  data-aos="fade-down"  data-aos-duration="1000">
         <h1>Choose Your Class</h1>
         <p>Explore your class-specific notes and resources with just a click.</p>
     </section>
@@ -132,7 +130,7 @@
 
     <section class=" classes">
 
-        <div class="c-card">
+        <div class="c-card"  data-aos="fade-up"  data-aos-duration="500">
             <div class="c-num"><i class="bi bi-journal-text"></i></div>
             <h1>class 9</h1>
             <p>Get all kpk Board class 9 notes</p>
@@ -140,7 +138,7 @@
         </div>
 
 
-        <div class="c-card">
+        <div class="c-card"  data-aos="fade-up"  data-aos-duration="1000">
             <div class="c-num"><i class="bi bi-journal-text"></i></div>
             <h1>class 10</h1>
             <p>Get all kpk Board class 10 notes</p>
@@ -148,7 +146,7 @@
         </div>
 
 
-        <div class="c-card">
+        <div class="c-card"  data-aos="fade-up"  data-aos-duration="1500">
             <div class="c-num"><i class="bi bi-journal-text"></i></div>
             <h1>class 11</h1>
             <p>Get all kpk Board class 11 notes</p>
@@ -156,7 +154,7 @@
         </div>
 
 
-        <div class="c-card">
+        <div class="c-card"  data-aos="fade-up"  data-aos-duration="2000">
             <div class="c-num"><i class="bi bi-journal-text"></i></div>
             <h1>class 12</h1>
             <p>Get all kpk Board class 12 notes</p>
@@ -171,14 +169,14 @@
 
     <!-- ----------------- notes start  ------------ -->
 
-    <section class="title ">
+    <section class="title "  data-aos="fade-down"  data-aos-duration="500">
         <h1>Study Notes</h1>
         <p>Find all the notes you need, organized for easy access.</p>
     </section>
 
     <section class="notes">
 
-        <div class="n-card">
+        <div class="n-card"  data-aos="fade-up"  data-aos-duration="500">
             <div class="n-img">
                 <img src="./assets/computer cover.png" alt="">
             </div>
@@ -188,10 +186,9 @@
                 <a href="./Notes/computer-notes.html"><button class="btn-dark">Read now </button></a>
             </div>
         </div>
-        <div class="n-card">
+        <div class="n-card"  data-aos="fade-up"  data-aos-duration="1000">
             <div class="n-img">
-                <img src="./assets/physics cover.png"
-                    alt="">
+                <img src="./assets/physics cover.png" alt="">
             </div>
 
             <div class="n-info">
@@ -199,10 +196,9 @@
                 <a href="./Notes/physics.html"><button class="btn-dark">Read now </button></a>
             </div>
         </div>
-        <div class="n-card">
+        <div class="n-card" data-aos="fade-up"  data-aos-duration="1500">
             <div class="n-img">
-                <img src="./assets/chemistry cover.png"
-                    alt="">
+                <img src="./assets/chemistry cover.png" alt="">
             </div>
 
             <div class="n-info">
@@ -210,10 +206,9 @@
                 <a href="./Notes/cheistry.html"><button class="btn-dark">Read now </button></a>
             </div>
         </div>
-        <div class="n-card">
+        <div class="n-card" data-aos="fade-up"  data-aos-duration="500">
             <div class="n-img">
-                <img src="./assets/biology cover.png"
-                    alt="">
+                <img src="./assets/biology cover.png" alt="">
             </div>
 
             <div class="n-info">
@@ -221,10 +216,9 @@
                 <a href="./Notes/biology.html"><button class="btn-dark">Read now </button></a>
             </div>
         </div>
-        <div class="n-card">
+        <div class="n-card" data-aos="fade-up"  data-aos-duration="1000">
             <div class="n-img">
-                <img src="./assets/emglish cover.png"
-                    alt="">
+                <img src="./assets/emglish cover.png" alt="">
             </div>
 
             <div class="n-info">
@@ -232,7 +226,7 @@
                 <a href="./Notes/english.html"><button class="btn-dark">Read now </button></a>
             </div>
         </div>
-        <div class="n-card">
+        <div class="n-card" data-aos="fade-up"  data-aos-duration="1500">
             <div class="n-img">
                 <img src="./assets/urdu cover.png" alt="">
             </div>
@@ -243,7 +237,7 @@
 
             </div>
         </div>
-        <div class="n-card">
+        <div class="n-card" data-aos="fade-up"  data-aos-duration="500">
             <div class="n-img">
                 <img src="./assets/maths cover.png" alt="">
             </div>
@@ -254,7 +248,7 @@
 
             </div>
         </div>
-        <div class="n-card">
+        <div class="n-card" data-aos="fade-up"  data-aos-duration="1000">
             <div class="n-img">
                 <img src="./assets//islamyat cover.png" alt="">
             </div>
@@ -265,7 +259,7 @@
 
             </div>
         </div>
-        <div class="n-card">
+        <div class="n-card" data-aos="fade-up"  data-aos-duration="1500">
             <div class="n-img">
                 <img src="./assets/pakstydy.png" alt="">
             </div>
@@ -289,14 +283,14 @@
 
 
     <!-- -----------------teams startttttttttttt ------------ -->
-    <section class="title ">
+    <section class="title "  data-aos="fade-down"  data-aos-duration="500">
         <h1>Our Team</h1>
         <p>Meet the passionate minds driving our vision forward.</p>
     </section>
 
     <section class="team">
 
-        <div class="team-card">
+        <div class="team-card" data-aos="zoom-in"  data-aos-duration="500">
             <div class="team-img">
                 <img src="./assets/OQASHA.png" alt="">
             </div>
@@ -312,7 +306,7 @@
 
 
 
-        <div class="team-card">
+        <div class="team-card" data-aos="zoom-in"  data-aos-duration="1000">
             <div class="team-img">
                 <img src="./assets/idrees.jpeg" alt="">
             </div>
@@ -329,7 +323,7 @@
         </div>
 
 
-        <div class="team-card">
+        <div class="team-card" data-aos="zoom-in"  data-aos-duration="1500">
             <div class="team-img">
                 <img src="./assets/saad.jpeg" alt="">
             </div>
@@ -345,7 +339,7 @@
         </div>
 
 
-        <div class="team-card">
+        <div class="team-card" data-aos="zoom-in"  data-aos-duration="2000">
             <div class="team-img">
                 <img src="./assets/hafeez.jpeg" alt="">
             </div>
@@ -376,14 +370,14 @@
     <!-- ----------------- contact start ------------ -->
 
 
-    <section class="title">
+    <section class="title" data-aos="fade-down"  data-aos-duration="500">
         <h1>Contact Us</h1>
         <p>Get in touch with us for any queries or assistance.</p>
 
     </section>
 
 
-    <div class="container-1">
+    <div class="container-1"  data-aos="zoom-in"  data-aos-duration="500">
 
         <div class="contact-form">
             <form action="https://api.web3forms.com/submit" method="POST">
@@ -459,6 +453,20 @@
     <script src="./js/script.js"></script>
 
     <!-- -------------- -->
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>
